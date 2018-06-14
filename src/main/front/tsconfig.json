@@ -1,0 +1,42 @@
+{
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "jquery": ["./node_modules/@types/jquery/index"],
+      "vue-router": ["./node_modules/vue-router/types/index"],
+      "vue-class-component": ["./node_modules/vue-class-component/lib/index"],
+      "vuex-class": ["./node_modules/vuex-class-/lib/index"],
+      "vue": ["./node_modules/vue/types/index"],
+      "vuex": ["./node_modules/vuex/dist/index"],
+      "vue-i18n": ["./node_modules/vue-i18n/types/index"],
+      "vue-property-decorator": ["./node_modules/vue-property-decorator/lib/vue-property-decorator"],
+      "arteco-framework-vue": ["./node_modules/arteco-framework-vue-v2/"]
+    },
+    "target": "es5",
+    "module": "es2015",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2015",
+      "es2016",
+      "es2017"
+    ],
+    "types": [
+      "node"
+    ],
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "removeComments": true,
+    "strict": false,
+    "declaration": true,
+    "skipLibCheck": true
+  },
+  "compileOnSave": false
+}
