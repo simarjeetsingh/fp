@@ -104,6 +104,7 @@
             if (localStorage.getItem('userId')) {
                 this.userId = JSON.parse(localStorage.getItem('userId'))
             }
+            document.documentElement.scrollTop = 0;
             this.getTopic();
         }
 

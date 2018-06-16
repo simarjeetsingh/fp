@@ -16,7 +16,13 @@ module.exports = function (ctx) {
                     '__API_BASE_PATH': ctx.dev ? '"http://localhost:8081"' : 'PRODUCTION_URL'
                 }));
             }
-        }
+        },
+        extras: [
+            'material-icons',
+            'mdi',
+            'ionicons',
+            'fontawesome'
+        ]
     };
     return Object.assign({}, defaultConfig, myConfig)
 };

@@ -14,7 +14,17 @@
 
 import 'quasar-extras/material-icons'
 
+import 'quasar-extras/mdi'
 
+import 'quasar-extras/ionicons'
+
+import 'quasar-extras/fontawesome'
+
+
+
+import 'quasar-extras/animate/fadeIn.css'
+
+import 'quasar-extras/animate/fadeOut.css'
 
 
 import 'quasar-app-styl'

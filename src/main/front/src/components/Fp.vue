@@ -27,8 +27,7 @@
                             momento: más que un profesor, será como aprender con un compañero con más experiencia.</p>
                         <p>- Las tasas de <b>matriculación</b> son más asequibles que las de la universidad.</p>
                         <p>- También podrás realizar <b>prácticas</b> en el extranjero y la convalidación de títulos en
-                            Europa
-                            es prácticamente automática.</p>
+                            Europa es prácticamente automática.</p>
                     </div>
                     <q-item-separator class="q-mt-lg"/>
 
@@ -39,23 +38,6 @@
 
 </template>
 <style>
-    .responsiv {
-        width: 100%;
-        /*max-width: 200px;*/
-        height: 500px;
-        opacity: 0.7;
-
-    }
-
-    .hero-text {
-        text-align: center;
-        position: absolute;
-        top: 45%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #699e4f;
-    }
-
 </style>
 <script lang="ts">
     import Vue from 'vue';
@@ -63,6 +45,8 @@
 
     @Component({name: 'ciclos'})
     export default class Fp extends Vue {
-
+        mounted() {
+            document.documentElement.scrollTop = 0;
+        }
     }
 </script>

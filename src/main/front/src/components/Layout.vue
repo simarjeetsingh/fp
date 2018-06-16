@@ -32,13 +32,6 @@
                                         <a @click="$router.replace('/ciclos')" style="cursor: pointer">
                                             <span>Ciclos</span>
                                         </a>
-                                        <!--<ul class="sub-menu">-->
-                                            <!--<li class="menu-item ">-->
-                                                <!--<a>-->
-                                                    <!--<span>Why ?</span>-->
-                                                <!--</a>-->
-                                            <!--</li>-->
-                                        <!--</ul>-->
                                     </li>
                                     <li class="menu-item">
                                         <a @click="$router.replace('/profesion')" style="cursor: pointer">
@@ -84,20 +77,18 @@
             </div>
         </q-layout-header>
         <a-modal ref="loginModal" flat-actions minimized alignActions="right">
-            <!--<p style="text-align: center; font-size: 30px">Login</p>-->
             <form @submit.prevent="userLogin" class="q-ml-md">
                 <q-input icon="mail" float-label="Nombre de usuario" class="q-my-md" name="username"
                          v-model="loginModel.username"/>
-                <q-input float-label="Contraseña" class="q-my-md" name="password" v-model="loginModel.password"/>
+                <q-input float-label="Contraseña" type="password" class="q-my-md" name="password" v-model="loginModel.password"/>
                 <q-btn size="md" label="login" color="primary" type="submit" class="float-right "/>
             </form>
         </a-modal>
 
         <a-modal ref="registerModal" flat-actions minimized alignActions="right">
-            <!--<p style="text-align: center; font-size: 30px">Registro</p>-->
             <form @submit.prevent="register" class="q-ml-md">
                 <q-input float-label="Nombre de usuario" class="q-my-md" v-model="registerModel.username"/>
-                <q-input float-label="Contraseña" class="q-my-md" v-model="registerModel.password"/>
+                <q-input float-label="Contraseña" type="password" class="q-my-md" v-model="registerModel.password"/>
                 <q-input float-label="Introducción" class="q-my-md" v-model="registerModel.introduction"/>
                 <q-btn size="md" label="Registrar" color="primary" type="submit" class="float-right"/>
             </form>
@@ -106,6 +97,34 @@
         <q-page-container>
             <router-view/>
         </q-page-container>
+
+        <q-layot-footer >
+            <footer class="container-fluid" id="footer">
+                <div class="col-md-12 footerDiv col-xs-12 text-center">
+                    <a href="https://www.facebook.com" target="_blank" class="q-mr-md">
+                        <i class="fab fa-facebook-f" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://www.twitter.com" target="_blank" class="q-mr-md">
+                        <i class="fab fa-twitter" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://www.snapchat.com" target="_blank" class="q-mr-md">
+                        <i class="fab fa-snapchat" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="q-mr-md"><i
+                            class="fab fa-instagram" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" class="q-mr-md"><i
+                            class="fab fa-linkedin" style="font-size: 20px;"></i></a>
+                    <a href="https://www.plus.google.com" target="_blank" class="q-mr-md">
+                        <i class="fab fa-google-plus-g" style="font-size: 20px;"></i>
+                    </a>
+                    <a href="https://www.youtube.com/" target="_blank"><i
+                            class="fab fa-youtube" style="font-size: 20px;"></i>
+                    </a>
+                    <p class="text-center copyright">© 2018, Simarjeet Singh, Todos los derechos reservados.</p>
+                </div>
+            </footer>
+        </q-layot-footer>
     </q-layout>
 </template>
 <style>
@@ -115,7 +134,8 @@
 
     .site-header {
         /*background-color: #000;*/
-        background-color: darkslategray;
+        /*background-color: darkslategray;*/
+        background-color: #242B35;
         left: 0;
         position: fixed;
         top: 0;
