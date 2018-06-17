@@ -10,8 +10,7 @@
         <div class="content-container">
             <div class="row" align="center">
                 <div class="col-md-4 col-sm-6 col-xs-12 columns">
-                    <div class="column animate-plus animated fadeIn" data-animations="fadeIn"
-                         data-animation-when-visible="true" data-animation-group="_21" style="display: block;">
+                    <div class="column animate-plus animated fadeIn"  style="display: block;">
                         <i class="fa fa-cog column-icon"></i>
                         <h4>Formación Profesional Básica</h4>
                         <p>Con el Título de F.P.Básica, adquirirás un conjunto de conocimientos, destrezas y
@@ -20,9 +19,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 columns">
-                    <div class="column animate-plus animated fadeIn" data-animations="fadeIn"
-                         data-animation-when-visible="true" data-animation-delay="0.2s"
-                         data-animation-group="_22" style="animation-delay: 0.2s; display: block;">
+                    <div class="column animate-plus animated fadeIn" style="animation-delay: 0.2s; display: block;">
                         <i class="fa fa-cogs column-icon"></i>
                         <h4>Formación Profesional de Grado Medio</h4>
                         <p>El Título de Grado Medio en Sistemas Microinformáticos y Redes, te mostrará un número
@@ -31,9 +28,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 columns">
-                    <div class="column animate-plus animated fadeIn" data-animations="fadeIn"
-                         data-animation-when-visible="true" data-animation-delay="0.4s"
-                         data-animation-group="_23" style="animation-delay: 0.4s; display: block;">
+                    <div class="column animate-plus animated fadeIn"  style="animation-delay: 0.4s; display: block;">
                         <i class="fa fa-cloud column-icon"></i>
                         <h4>Formación Profesional de Grado Superior</h4>
                         <p>
@@ -222,16 +217,10 @@
     import Vue from 'vue';
     import Component from 'vue-class-component';
     import * as $ from 'jquery';
-
-    @Component({
-        name: 'index',
-    })
+    @Component({name: 'index'})
     export default class Index extends Vue {
-
         mounted() {
-            // document.documentElement.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
-
-
     }
 </script>
