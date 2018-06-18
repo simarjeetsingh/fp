@@ -179,7 +179,7 @@
         width: 100%;
     }
 
-    ol, ul {
+    .widget-area ol, .widget-area ul {
         margin: 0;
         padding: 0;
         color: #ffffff;
