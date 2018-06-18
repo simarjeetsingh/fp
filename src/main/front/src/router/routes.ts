@@ -1,4 +1,3 @@
-import {AError, AHome, ALayout, AParent} from '../../node_modules/arteco-framework-vue-v2';
 import {RouteConfig} from 'vue-router';
 import Index from '../components/Index.vue';
 import Login from '../components/Login.vue';
@@ -9,7 +8,7 @@ import Layout from '../components/Layout.vue';
 import Fp from '../components/Fp.vue';
 import Ciclos from '../components/Ciclos.vue';
 import Profesion from '../components/Profesion.vue';
-
+import AParent from '../components/AParent.vue';
 
 let routes: RouteConfig[] = [
     {path: '/', component: Layout, children: [
