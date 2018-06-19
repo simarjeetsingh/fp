@@ -9,6 +9,7 @@ import Fp from '../components/Fp.vue';
 import Ciclos from '../components/Ciclos.vue';
 import Profesion from '../components/Profesion.vue';
 import AParent from '../components/AParent.vue';
+import Empresa from '../components/Empresa.vue';
 
 let routes: RouteConfig[] = [
     {path: '/', component: Layout, children: [
@@ -18,6 +19,7 @@ let routes: RouteConfig[] = [
                     {path: 'ciclos', component: Ciclos},
                     {path: 'foros', component: Topics},
                     {path: 'profesion', component: Profesion},
+                    {path: 'fct', component: Empresa},
                     {path: '/topic/:id', component: Topic, props: true},
                 ]},
             { path: 'login',  component: Login},

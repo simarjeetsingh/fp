@@ -15,7 +15,8 @@
     "jquery": "^3.2.1",
     "moment": "^2.15.0",
     "axios": "0.18.0",
-    "vue-router": "3.0.1"
+    "vue-router": "3.0.1",
+    "bootstrap": "3.3.6"
   },
   "devDependencies": {
     "@types/jquery": "^3.2.11",

@@ -1243,6 +1243,16 @@
                     </section>
 
                 </div>
+                <div class="container-fluid motivo q-mt-lg">
+                    <h4 class="text-center">Contacto</h4>
+                    <hr>
+                    <div class="">
+                        <q-input class="q-my-md q-ml-lg" float-label="Nombre"/>
+                        <q-input class="q-my-md q-ml-lg" float-label="Email" type="email"/>
+                        <q-input float-label="Mensaje" class="q-my-md q-ml-lg" type="textarea" rows="2"/>
+                        <q-btn size="md" label="enviar" class="q-mt-sm q-ml-lg" color="primary" style="width: 10%"/>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

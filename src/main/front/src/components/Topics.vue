@@ -38,7 +38,7 @@
         <a-modal ref="postModal" flat-actions maximized position="bottom" alignActions="right">
             <form @submit.prevent="submitTopic" class="q-ml-md">
                 <q-input class="q-my-md q-ml-lg" float-label="Título" v-model="model.title"/>
-                <!--<q-input class="a-input q-my-md" float-label="Categoria" v-model="model.category"/>-->
+                <q-input class="q-my-md q-ml-lg" float-label="Categoria" v-model="model.category"/>
                 <!--<q-editor class="q-my-md" v-model="model.content"/>-->
                 <q-input float-label="Contenido" class="q-my-md q-ml-lg" type="textarea" rows="5" v-model="model.content"/>
                 <q-btn size="md" label="enviar" class="q-my-md q-ml-lg"  color="primary" type="submit" style="width: 10%"/>

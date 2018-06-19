@@ -1,3 +1,249 @@
 @import '~variables'
 
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
+//@media only screen and (max-width: 1000px) {
+//  .img-circle, .devices {
+//    display: none;
+//  }
+//}
+//
+//html, body {
+//  height: 100%;
+//  font-family: 'Open Sans', sans-serif !important;
+//}
+//
+//.devices {
+//  text-align: right;
+//  margin-top: 60px;
+//  width: 80%;
+//}
+//
+//.hideImage {
+//  visibility: hidden;
+//}
+//
+//hr {
+//  border: 0;
+//  width: 50px;
+//  height: 2px;
+//  background-color: #DD4E40;
+//}
+//
+//.jumbotron hr {
+//  width: 30%;
+//  min-width: 185px;
+//  max-width: 300px;
+//  margin-top: -10px;
+//}
+//
+//h1 {
+//  text-shadow: 1px 2px 3px #000;
+//  margin-top: 15%;
+//}
+//
+//.jumbotron p {
+//  font-size: 22px;
+//  text-shadow: 1px 1px 1px #000;
+//  font-family: 'Lato', sans-serif;
+//}
+//
+//.jumbotronBtn {
+//  background-color: transparent;
+//  font-family: 'Lato', sans-serif;
+//  font-size: 21px;
+//  color: #ffffff !important;
+//  border-radius: 50px;
+//  border: 2px solid #DD4E40;
+//  text-shadow: 1px 1px 1px #000;
+//  transition: all 0.3s ease 0s;
+//}
+//
+//.jumbotronBtn:hover {
+//  background-color: #DD4E40;
+//}
+//
+#footer {
+  background-color: #242B35;
+  background-size: cover;
+  margin-top: 100px;
+  padding: 15px !important;
+  -webkit-box-shadow: inset 0px 10px 20px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 10px 20px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 10px 20px -9px rgba(0, 0, 0, 0.75);
+  color: #FFFFFF;
+}
+
+#footer a {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+
+.copyright {
+  padding-top: 15px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+//
+//.fa {
+//  font-size: 40px !important;
+//  margin-left: 15px;
+//  transition: all 1s ease 0s;
+//}
+//
+//.fa-facebook-square:hover {
+//  color: #3B5998;
+//}
+//
+//.fa-youtube-square:hover {
+//  color: #E62117;
+//}
+//
+//.fa-linkedin-square:hover {
+//  color: #1E87BE;
+//}
+//
+//.fa-google-plus-square:hover {
+//  color: #DD4E40;
+//}
+//
+//.jumbotron {
+//  background: url("https://static.pexels.com/photos/7109/laptop-notebook-clean-hero-large.jpg");
+//  background-size: cover;
+//  background-repeat: no-repeat;
+//  opacity: 1;
+//  height: 100%;
+//  min-height: 600px;
+//  color: #ffffff;
+//
+//}
+//
+//.img-circle {
+//  -webkit-border-radius: 50%;
+//  -moz-border-radius: 50%;
+//  border-radius: 50%;
+//  max-width: 200px;
+//  margin-top: 25px;
+//  border: 3px solid #242B35;
+//}
+//
+//h2, h1 {
+//  font-family: 'Pacifico', cursive;
+//}
+//
+//.overlay h2 {
+//  font-family: 'Open Sans', sans-serif;
+//}
+//
+//p {
+//  font-size: 18px;
+//}
+//
+//a {
+//  color: #205493;
+//  font-weight: bold;
+//}
+//
+//a:hover, a:active a:visited {
+//  color: #DD4E40;
+//  text-decoration: none !important;
+//}
+//
+.content-container .columns {
+  padding: 0 18px 0 18px;
+}
+
+.columns .fa {
+  font-size: 50px;
+}
+
+.columns h4 {
+  margin: 20px 0 25px 0;
+}
+
+.bg-grey {
+  background-color: rgb(242, 242, 242);
+}
+
+.col-xs-12 {
+  padding: 3px;
+}
+
+.col-md-3 {
+  padding: 10px;
+}
+
+.portfolioImg {
+  height: 230px;
+}
+
+/* Hover effect on  images */
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  background-color: #242B35;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  padding: 25px 20px;
+  cursor: pointer;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  opacity: 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 0.5em 0;
+  background-color: transparent;
+}
+
+.hovereffect h2:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+
+.hovereffect:hover h2:after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}

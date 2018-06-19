@@ -10,7 +10,7 @@
         <div class="content-container">
             <div class="row" align="center">
                 <div class="col-md-4 col-sm-6 col-xs-12 columns">
-                    <div class="column animate-plus animated fadeIn"  style="display: block;">
+                    <div class="column animate-plus animated fadeIn" style="display: block;">
                         <i class="fa fa-cog column-icon"></i>
                         <h4>Formación Profesional Básica</h4>
                         <p>Con el Título de F.P.Básica, adquirirás un conjunto de conocimientos, destrezas y
@@ -28,7 +28,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 col-xs-12 columns">
-                    <div class="column animate-plus animated fadeIn"  style="animation-delay: 0.4s; display: block;">
+                    <div class="column animate-plus animated fadeIn" style="animation-delay: 0.4s; display: block;">
                         <i class="fa fa-cloud column-icon"></i>
                         <h4>Formación Profesional de Grado Superior</h4>
                         <p>
@@ -38,9 +38,9 @@
                     </div>
                 </div>
             </div>
-            <div class="container-fluid   text-center"
+            <div class="container-fluid  text-center"
                  style="margin-right: 0; padding-right: 0;" id="ciclos">
-                <hr>
+                <!--<hr>-->
                 <h4 class="text-center animate-fade">Ciclos formativos</h4>
                 <hr>
                 <div class="row" align="center">
@@ -118,54 +118,46 @@
                     </div>
                 </div>
             </div>
-            <div class="">
-                <h2>Motivos por los que estudiar un FP de grado superior en informática</h2>
-                <p>Si estás pensando en estudiar un FP que aumente tu empleabilidad y tenga futuro no dejes de
-                    informarte sobre los FP de grado superior en informática: múltiples especializaciones para que
-                    estudies lo que más te guste.</p>
-                <p>El campo de la informática es uno de los que mayor crecimiento ha experimentado en estos últimos
-                    años y todo parece indicar que la tendencia seguirá en aumento. Por eso posiblemente sea uno de
-                    los mejores segmentos donde especializarse con un ciclo formativo de grado superior ya que la
-                    demanda de profesionales especializados en distintas ramas relacionadas con la informática
-                    seguirá siendo importante.</p>
-                <h3>¿Por qué estudiar un FP de grado superior en informática?</h3>
-                <p>Los estudios de informática tienen algo muy importante que los diferencia del resto, y es la gran
-                    amplitud de posibilidades laborales tanto a nivel nacional como internacionalmente. Además es un
-                    sector amplísimo, en el que las <strong>posibilidades de formación y especialización son
-                        infinitas</strong> y por lo tanto cada alumno puede fácilmente encontrar una temática que le
-                    interese especialmente.</p>
-                <p>Además estos cursos de FP de grado superior están ampliamente vinculados con la <strong>formación
-                    continua</strong>. Pueden suponer un primer escalón para introducirse en este campo o
-                    convertirse en distintas ramas de especialización dentro de una carrera vinculada a la
-                    informática.</p>
-                <p>Es gracias a estas <strong>múltiples posibilidades de especialización</strong> por lo que los
-                    ciclos formativos en informática son unos de los más demandados a día de hoy por los estudiantes
-                    interesados en la economía del conocimiento, nuevas tecnologías y demás. Así, se pueden estudiar
-                    FP de grado superior en administraciones de sistemas informáticos, desarrollo de aplicaciones
-                    web, telecomunicaciones, desarrollo de aplicaciones multiplataforma, desarrollo de aplicaciones
-                    informáticas o administración de sistemas informáticos en red.</p>
-                <h3>¿Qué FP de grado superior es el más adecuado para ti?</h3>
-                <p>Dentro de todas las opciones de ciclo formativo que hemos comentado la elección de una u otra
-                    dependerá de distintos factores, pero en ningún caso de elementos ajenos al curso en sí, como
-                    pueden ser el horario o lugar de impartición, ya que ambos los elige el alumno al poder cursarlo
-                    a distancia.</p>
-                <p>Los factores que harán optar por un ciclo formativo u otro serán fundamentalmente los <strong>vinculados
-                    con gustos e intereses del alumno</strong>.</p>
-                <p>Si te interesa la gestión de redes un FP interesante puede ser el de telecomunicaciones, si por
-                    el contrario eres más de aplicaciones puede interesarte el de aplicaciones web o informáticas si
-                    quieres centrarte en software tradicional.</p>
-                <p>También puede que lo tuyo sea más la administración, así te interesará el de administraciones de
-                    sistemas informáticos. Como podemos ver hay grados superiores en informática para todos los
-                    gustos así pues encontrarás el perfecto para ti, con el que te sientas realizado y te ayude a
-                    aumentar tus conocimientos en lo que realmente te gusta.</p>
-                <p>Si quieres estudiar un grado superior con futuro y totalmente adaptado a tus necesidades y gustos
-                    no dejes de consultarnos sobre los FP de grado superior en informática, seguro que encuentras el
-                    perfecto para ti. </p>
+
+            <div class="row">
+                <div class="col-md-8 col-xs-12 motivo q-mt-lg" style="font-family: Roboto, sans-serif">
+                    <h4 class="text-center">Motivos por los que estudiar un FP de informática</h4>
+                    <hr>
+                    <p class="q-mt-lg" style="font-family: Roboto, sans-serif">Si estás pensando en estudiar un FP que
+                        aumente tu empleabilidad y tenga futuro no dejes de  informarte sobre los FP de grado superior en informática: múltiples especializaciones para que
+                        estudies lo que más te guste.</p>
+                    <p>El campo de la informática es uno de los que mayor crecimiento ha experimentado en estos últimos
+                        años y todo parece indicar que la tendencia seguirá en aumento. Por eso posiblemente sea uno de
+                        los mejores segmentos donde especializarse con un ciclo formativo de grado superior ya que la
+                        demanda de profesionales especializados en distintas ramas relacionadas con la informática
+                        seguirá siendo importante.</p>
+                </div>
+                <div class="col-md-4 q-mt-lg" style="margin-top: 70px">
+                    <img class="img-responsive img-circle slideanim q-mt-lg"
+                         src="../img/58.jpg" height="230" width="340"
+                         alt="Picture of me" align="right">
+                </div>
             </div>
+
+            <div class="container-fluid motivo q-mt-lg">
+                <h4 class="text-center">Contacto</h4>
+                <hr>
+                <div class="">
+                    <q-input class="q-my-md q-ml-lg" float-label="Nombre"/>
+                    <q-input class="q-my-md q-ml-lg" float-label="Email" type="email"/>
+                    <q-input float-label="Mensaje" class="q-my-md q-ml-lg" type="textarea" rows="4"/>
+                    <q-btn size="md" label="enviar" class="q-mt-sm q-ml-lg" color="primary" style="width: 10%"/>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
 <style>
+    .motivo h4 {
+        margin: 50px 0 25px 0;
+    }
+
     .content-container {
         max-width: 1140px;
         margin-left: 105px;
@@ -217,8 +209,10 @@
     import Vue from 'vue';
     import Component from 'vue-class-component';
     import * as $ from 'jquery';
+
     @Component({name: 'index'})
     export default class Index extends Vue {
+
         mounted() {
             document.documentElement.scrollTop = 0;
         }

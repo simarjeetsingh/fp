@@ -20,22 +20,20 @@
                                             <span>¿Qué es la FP?</span>
 
                                         </a>
-                                        <!--<ul class="sub-menu">-->
-                                            <!--<li class="menu-item ">-->
-                                                <!--<a @click="$router.replace('/acceso')" style="cursor: pointer">-->
-                                                    <!--<span>Cómo acceder</span>-->
-                                                <!--</a>-->
-                                            <!--</li>-->
-                                        <!--</ul>-->
                                     </li>
                                     <li class="menu-item">
                                         <a @click="$router.replace('/ciclos')" style="cursor: pointer">
                                             <span>Ciclos</span>
                                         </a>
                                     </li>
+                                    <!--<li class="menu-item">-->
+                                        <!--<a @click="$router.replace('/profesion')" style="cursor: pointer">-->
+                                            <!--<span>La profesión</span>-->
+                                        <!--</a>-->
+                                    <!--</li>-->
                                     <li class="menu-item">
-                                        <a @click="$router.replace('/profesion')" style="cursor: pointer">
-                                            <span>La profesión</span>
+                                        <a @click="$router.replace('/fct')" style="cursor: pointer">
+                                            <span>Empresas</span>
                                         </a>
                                     </li>
                                     <li class="menu-item">
@@ -89,7 +87,7 @@
             <form @submit.prevent="register" class="q-ml-md">
                 <q-input float-label="Nombre de usuario" class="q-my-md" v-model="registerModel.username"/>
                 <q-input float-label="Contraseña" type="password" class="q-my-md" v-model="registerModel.password"/>
-                <q-input float-label="Introducción" class="q-my-md" v-model="registerModel.introduction"/>
+                <!--<q-input float-label="Introducción" class="q-my-md" v-model="registerModel.introduction"/>-->
                 <q-btn size="md" label="Registrar" color="primary" type="submit" class="float-right"/>
             </form>
         </a-modal>
@@ -98,7 +96,7 @@
             <router-view/>
         </q-page-container>
 
-        <q-layot-footer >
+        <!--<q-layout-footer>-->
             <footer class="container-fluid" id="footer">
                 <div class="col-md-12 footerDiv col-xs-12 text-center">
                     <a href="https://www.facebook.com" target="_blank" class="q-mr-md">
@@ -124,7 +122,7 @@
                     <p class="text-center copyright">© 2018, Simarjeet Singh, Todos los derechos reservados.</p>
                 </div>
             </footer>
-        </q-layot-footer>
+        <!--</q-layout-footer>-->
     </q-layout>
 </template>
 <style>
@@ -348,10 +346,10 @@
             let data = JSON.stringify({
                 username: this.registerModel.username,
                 password: this.registerModel.password,
-                introduction: this.registerModel.introduction
+                // introduction: this.registerModel.introduction
             });
 
-            if (this.loginModel.username === null || this.loginModel.username === '' || this.loginModel.password === null || this.loginModel.password === '') {
+            if (this.registerModel.username === null || this.registerModel.username === '' || this.registerModel.password === null || this.registerModel.password === '') {
                 this.$q.notify({
                     type: 'negative',
                     message: 'Campos obligatorios vacíos',
